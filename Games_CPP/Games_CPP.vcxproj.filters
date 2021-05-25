@@ -24,6 +24,9 @@
     <ClCompile Include="HangmanGame.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
+    <ClCompile Include="ManPacGame.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GuessingGame.hpp">
@@ -35,10 +38,8 @@
     <ClInclude Include="HangmanGame.hpp">
       <Filter>Arquivos de Cabeçalho</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="Words.txt">
-      <Filter>Arquivos de Recurso</Filter>
-    </Text>
+    <ClInclude Include="ManPacGame.hpp">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

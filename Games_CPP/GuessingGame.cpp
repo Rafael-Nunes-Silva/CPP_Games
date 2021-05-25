@@ -25,6 +25,9 @@ void GuessingGame::RunGame() {
 		RunGame();
 		break;
 	}
+	secretNum = rand() % ((10 + 1) * tries);
+
+	std::cout << "The Secret Number is Between 0 and " << 10 * tries << std::endl;
 	std::cout << "You Have a Total of " << tries << " Tries.\n" << std::endl;
 
 	int guess = 0;
@@ -55,6 +58,7 @@ void GuessingGame::LostGame() {
 	std::cout << "* You Lost! *" << std::endl;
 	std::cout << "*************" << std::endl;
 	std::cout << "You Finished the Game With a Total of " << points << "Points.\n" << std::endl;
+	std::cout << "The Secret Number was " << secretNum << ".\n" << std::endl;
 }
 void GuessingGame::WonGame() {
 	std::cout << "************" << std::endl;

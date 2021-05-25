@@ -26,7 +26,7 @@ void HangmanGame::RunGame() {
 std::string HangmanGame::GetRandomWord() {
 	std::string word;
 	std::vector<std::string> wordsList;
-	std::ifstream file("Words.txt");
+	std::ifstream file(PATH_WordsList);
 	while (std::getline(file, word))
 		wordsList.push_back(word);
 	file.close();
