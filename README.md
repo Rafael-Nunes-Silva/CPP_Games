@@ -1,2 +1,2 @@
 # CPP_Games
-A program with a list of games like hangman and guess a number for you to try.
+A program with a list of games previously made in C, like hangman, guess a number and Man-Pac.
